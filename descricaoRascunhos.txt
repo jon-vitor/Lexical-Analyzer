@@ -1,0 +1,30 @@
+IDENTIFICADORES
+    (a..z) | (A..Z|0..9|a..z)*
+
+NUMEROS
+    (0..9)+
+
+PONTUACAO
+    ;
+
+OPERADOR
+    + | - | * | /
+
+OP_REL
+    > | >= | < | <= | == | !=
+OP_ATR
+    =
+
+OBS:
+a..z -> intervalo 'a' a 'z'
+*    -> 0 ou mais repeticoes
++    -> 1 ou mais repeticoes
+--------------------------------------------------------------------------
+Comandos retirados
+
+//throw new PscLexicalException("Simbolo nao identificado: " + currentChar);
+//throw new PscLexicalException("identificador mal formado: " + word + currentChar);
+//throw new PscLexicalException("Numero mal formado: " + word + currentChar);
+//throw new PscLexicalException("Operador mal formado: " + word + currentChar);
+//throw new PscLexicalException("Operador mal formado...");
+//throw new PscLexicalException("String mal formada: " + word + currentChar);

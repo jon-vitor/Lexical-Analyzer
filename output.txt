@@ -1,0 +1,90 @@
+
+[PALAVRA RESERVADA], Lexema --> var
+
+[IDENTIFICADOR], Lexema --> x
+
+[IDENTIFICADOR], Lexema --> y
+
+[SIMBOLO/OPERADOR], Lexema --> :
+
+[PALAVRA RESERVADA], Lexema --> integer
+
+[SIMBOLO/OPERADOR], Lexema --> ;
+
+[PALAVRA RESERVADA], Lexema --> const
+
+[IDENTIFICADOR], Lexema --> pi
+
+[ATRIBUICAO], Lexema --> :=
+
+[NUMERO REAL], Lexema --> 3.1416
+
+[PALAVRA RESERVADA], Lexema --> begin
+
+[PALAVRA RESERVADA], Lexema --> read
+
+[SIMBOLO/OPERADOR], Lexema --> (
+
+[IDENTIFICADOR], Lexema --> x
+
+[SIMBOLO/OPERADOR], Lexema --> )
+
+[SIMBOLO/OPERADOR], Lexema --> ;
+
+[PALAVRA RESERVADA], Lexema --> if
+
+[SIMBOLO/OPERADOR], Lexema --> (
+
+[IDENTIFICADOR], Lexema --> x
+
+[SIMBOLO/OPERADOR], Lexema --> >
+
+[IDENTIFICADOR], Lexema --> y
+
+[SIMBOLO/OPERADOR], Lexema --> )
+
+[PALAVRA RESERVADA], Lexema --> then
+
+[IDENTIFICADOR], Lexema --> y
+
+[ATRIBUICAO], Lexema --> :=
+
+[IDENTIFICADOR], Lexema --> x
+
+[SIMBOLO/OPERADOR], Lexema --> ;
+
+[PALAVRA RESERVADA], Lexema --> else
+
+[IDENTIFICADOR], Lexema --> y
+
+[ATRIBUICAO], Lexema --> :=
+
+[SIMBOLO/OPERADOR], Lexema --> -
+
+[IDENTIFICADOR], Lexema --> x
+
+[SIMBOLO/OPERADOR], Lexema --> ;
+
+[PALAVRA RESERVADA], Lexema --> writeln
+
+[SIMBOLO/OPERADOR], Lexema --> (
+
+[IDENTIFICADOR], Lexema --> x
+
+[SIMBOLO/OPERADOR], Lexema --> )
+
+[SIMBOLO/OPERADOR], Lexema --> ;
+
+[PALAVRA RESERVADA], Lexema --> write
+
+[SIMBOLO/OPERADOR], Lexema --> (
+
+[IDENTIFICADOR], Lexema --> y
+
+[SIMBOLO/OPERADOR], Lexema --> )
+
+[SIMBOLO/OPERADOR], Lexema --> ;
+
+[PALAVRA RESERVADA], Lexema --> end
+
+[FIM], Lexema --> .
